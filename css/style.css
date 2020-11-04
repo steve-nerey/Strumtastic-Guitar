@@ -1,0 +1,195 @@
+.body{
+  background-color: #ddd;
+  color: #2a537b;
+}
+
+/* creates a frame look in second container */
+.frame {
+  background-color: #ccc;
+}
+
+/* image at bottom of home page */
+#back-img1 {
+  background-image: url("../images/guitardisplay4.1.jpg");
+  background-repeat: repeat-x;
+  height: 300px;
+}
+
+/***************************************************************************************
+************      decorates navbar btns and ancors */
+.navbar{
+  background: linear-gradient(180deg, #2a537b, 80%, #ddd);
+}
+
+.btn-nav {
+  font-family: 'Times New Roman, Serif';
+  color: #dea249;
+  text-shadow: 2px 1px 1px #2d5a88;
+  font-size: 18px;
+}
+
+/* decorates other btns */
+.btn-match {
+  font-family: 'Times New Roman, Serif';
+  color: #2d5a88;
+  background-color: #eee;
+}
+
+/* transpose and form buttons */
+.btn-match2 {
+  background-color: #fff;
+}
+
+/* hamburgar menu */
+.menu {
+  color: #dea249;
+  text-shadow: 2px 1px 1px #2d5a88;
+  font-size: 18px;
+}
+
+/* all buttons*/
+.btn-match2:hover, .btn-match:hover, .btn-nav:hover, .menu:hover{
+  background-color: #2a537b;
+}
+
+/* transpose ancors */
+.ancorKeys {
+  color: #2a537b;
+}
+
+.ancorKeys:hover {
+  text-decoration: none;
+  color: #f5a735;
+}
+
+/*  targets h4's and ancorKeys (h3's) in the transposing section    */
+@media only screen and (min-width: 960px) {
+h4, .increase-sz {
+  font-size: 32px;
+}
+}
+
+
+/****************************************************************************************************
+*******  Logos and headers to sections and background shadows */
+
+.logo-bg1 {
+  background: linear-gradient(180deg, #444, 80%, #ddd);
+}
+
+.logo-bg2 {
+  background: linear-gradient(180deg, #444, 50%, #ddd);
+}
+
+.logo1, .logo2, .logo3, .match-text {
+  font-family: 'Times New Roman, Serif';
+  color: #2d5a88;
+  text-shadow: 2px 2px 1px #cec0bf;
+}
+
+.logo1 {
+  transform: skewY(-7deg);
+}
+
+.logo2, .logo3 {
+  transform: skewX(8deg);
+}
+
+.logo3{
+  text-shadow: 2px 2px 1px #dea249;
+}
+
+ /* animates logo in navbar using JS */
+.enlarge {
+    font-size: 30px;
+}
+
+
+/*********************************************************************
+***************     table decoration */
+.table-chart {
+  width: 750px;
+  background-color: #ccc;
+}
+
+.tr-chart:hover {
+  color: #eee;
+  background-color: #2a537b;
+  transition: 500ms ease-in-out;
+  transform: scale(1.2);
+}
+
+/******************************************************************
+*******    form   */
+
+#contact-form {
+  margin-bottom: 150px;
+}
+
+.form-icon {
+  border-top: 2px dashed;
+  border-bottom: 2px dashed;
+  width: 100px;
+  
+}
+
+/* all modals */
+.modal-footer {
+  border: none;
+}
+
+.modal-body {
+  text-align: center;
+  color:#fff;
+ }
+
+.styleModal1{
+  background-image: url("../images/welcome.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+  
+.styleModal2{
+  font-size: 28px;
+  margin-top: 250px;
+  background-color: #2a537b;
+  opacity: 0.7;
+  border-radius: 50px;
+  text-transform: capitalize;
+}
+
+.styleModal3{
+  background-color: #2a537b;
+ }
+ 
+
+
+/********************************************************************************************
+***************      footer section */
+footer{
+  margin-top: 300px;
+}
+
+.footer {
+  margin-top: 150px;
+}
+
+.blue {
+  background: #2a537b;
+}
+
+.btn-size {
+  height: 27px;
+}
+
+.ico-size {
+  height: 40px;
+  width: 40px;
+}
+
+.ico-size2 {
+  height: 28px;
+  width: 40px;
+}
+
